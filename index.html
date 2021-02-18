@@ -1,0 +1,201 @@
+<html>
+
+<head>
+
+    <title>Quiz</title>
+
+    <!-- Folha de Estilo -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- Fonte -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="jquery-3.5.1.min.js"></script>
+
+
+
+</head>
+
+<body>
+
+    <div class="conteudo">
+
+        <div class="header">
+            <h1>QUIZ</h1>
+            <h2>Depois desse mergulho na vida e na obra de <b>Chiquinha</b>, assim como na história da música brasileira, <b>vamos testar seus conhecimentos?</b></h2>
+        </div>
+
+        <hr class="line">
+        <div class="questoes">
+            <ul class="lista-perguntas">
+                <li class="pergunta">
+                    <p><b>1)</b> Canção/dança trazida pelos africanos escravizados vindos de Angola e do Congo no final do século XVII. É considerado o gênero que influenciou
+                        o samba.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="correta">Lundu</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Maxixe</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Fado</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>2)</b> Possui três marcações bem definidas, sendo a primeira mais forte e as duas seguintes mais leves e rápidas. Influenciou a criação das modinhas
+                        e serestas.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="errada">Tango Brasileiro</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="correta">Valsa</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Quadrilha</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>3)</b> Nasceu de uma fusão entre o lundu, a polca e a habanera. Termo empregado por Chiquinha Gonzaga e contemporâneos para “rotular” maxixes. </p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="errada">Samba</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="correta">Tango Brasileiro</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Quadrilha</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>4)</b> Canção popular portuguesa que, segundo historiadores, se originou no lundu do Brasil colônia. Geralmente é acompanhado por uma guitarra clássica. </p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="correta">Fado</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Polca</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Maxixe</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>5)</b> Dança em pares, originária da Boêmia no século XIX. Apresenta melodia saltitante e tornou-se muito popular aqui no Brasil, ganhando os teatros e as ruas.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="errada">Forró</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="correta">Polca</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Quadrilha</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>6)</b> Dança de salão popular na Europa que chegou ao Brasil no começo do século XIX. A popularização por aqui fez com que sua execução em cinco partes ganhasse comandos inesperados e grande duração. </p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="errada">Choro</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="correta">Quadrilha</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Maxixe</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>7)</b> Primeira manifestação com características rítmicas específicas do Brasil. Chiquinha Gonzaga compôs alguns sucessos deste gênero musical, como “Corta-jaca”.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="errada">Samba</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Marcha carnavalesca</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="correta">Maxixe</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>8)</b> Surgiu no Rio de Janeiro em meados do século XIX. Os primeiros grupos eram formados por flauta, violão e cavaquinho. A improvisação é condição básica
+                        deste gênero.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="correta">Choro</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Samba</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Pagode</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>9)</b> Tipicamente brasileiro, tem origem nos antigos batuques trazidos ao Brasil pelos africanos escravizados no
+                        período colonial.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="correta">Samba</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Pagode</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Marcha carnavalesca</button></td>
+                        </tr>
+                    </table>
+                </li>
+                <li class="pergunta">
+                    <p><b>10)</b> É uma música de compasso binário, com marcação acentuada do tempo para animar os foliões dos blocos de rua e dos cordões de salão. Chiquinha Gonzaga compôs a primeira, “Ô abre alas”.</p>
+                    <table class="alternativa">
+                        <tr>
+                            <td><button id="resposta" class="errada">Axe</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="errada">Funk</button></td>
+                        </tr>
+                        <tr>
+                            <td><button id="resposta" class="correta">Marcha carnavalesca</button></td>
+                        </tr>
+                    </table>
+                </li>
+            </ul>
+        </div>
+
+        <div class="footer">
+            <h2>Quer saber mais sobre esses
+                gêneros e ritmos?</h2>
+            <h3><b>Acesse aqui</b> o glossário completo.</h3>
+        </div>
+
+    </div>
+        <!-- Alternativa Certa ou Errada -->
+    <script type='text/javascript'>
+        $("button").click(function() {
+            clicked = true;
+            if (clicked) {
+                $(this).toggleClass('active');
+                $(this).attr("disabled", true);
+
+                clicked = true;
+            } else {
+                $(this).removeClass('active');
+                clicked = false;
+            }
+        });
+    </script>
+</body></html>

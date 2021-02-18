@@ -1,0 +1,149 @@
+/* Formatação */
+
+body {
+    margin: auto;
+    padding: 0;
+    width: 70%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-color: #d5841f;
+    color: white;
+}
+
+.conteudo {
+    margin: auto;
+
+}
+
+.line {
+    margin: 50px 0px 50px 0px;
+    border: 2px solid white;
+}
+
+.header h1 {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    font-size: 9rem;
+}
+
+.header h2 {
+    font-weight: 100;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 4rem;
+
+}
+
+.lista-perguntas {
+
+    padding: 0;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 4rem;
+}
+
+.lista-perguntas p {
+    margin: 50px 0px 30px 0px;
+}
+
+.alternativa {
+    margin: auto;
+    width: 50%;
+    font-weight: bold;
+    font-size: 2rem;
+    
+}
+
+.alternativa td button {
+    margin: auto;
+    color: white;
+    display: block;
+    width: 100%;
+    text-decoration: none;
+    height: 100%;
+    background: none;
+    border: none;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/* Botões Alternativa */
+
+.alternativa td .correta.active {
+
+    background-color: #10B91B;
+
+}
+
+.alternativa td .errada.active {
+
+    background-color: #A72024;
+
+}
+
+table,
+tr,
+td {
+
+    border: 2px solid white;
+    border-collapse: collapse;
+    text-align: center;
+    height: 20%;
+
+}
+
+.footer h2 {
+    margin-top: 75px;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.footer h3 {
+    font-weight: 300;
+    text-align: justify;
+}
+
+
+
+/* Media Queries */
+
+@media (min-width:320px) {
+
+    body {
+        width: 80%;
+    }
+
+
+    .header h2 {
+        margin-bottom: 130px;
+    }
+
+    .lista-perguntas p {
+        margin: 150px 0px 50px 0px;
+    }
+
+
+    .alternativa {
+        margin: auto;
+        width: 100%;
+        font-size: 3rem;
+        height: 18%;
+    }
+
+    table,
+    tr,
+    td {
+
+        border: 4px solid white;
+
+    }
+
+    .footer {
+        font-size: 24;
+    }
+}
